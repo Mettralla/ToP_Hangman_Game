@@ -1,11 +1,7 @@
 # frozen_string_literal: true
 
-require 'yaml'
-
 # Hangman rules
 class HangmanGame
-  attr_accessor :secret_word, :blank_word, :mistakes, :wrong_guesses
-
   def initialize
     @secret_word = ''
     @blank_word = nil
